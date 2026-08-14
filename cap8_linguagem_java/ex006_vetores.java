@@ -17,9 +17,9 @@ public class ex006_vetores {
             vet[ind] = sc.nextDouble();
         }
 
+        System.out.println("VALORES DO VETOR: ");
         for(int ind = 0; ind < numDigitado; ind++){
-            System.out.println("VALORES DO VETOR: ");
-            System.out.println(vet[ind]);
+            System.out.println(String.format("%.2f", vet[ind]));
         }
 
         sc.close();
